@@ -1,0 +1,49 @@
+
+
+
+body {
+    background-color: rgb(208, 208, 219);
+}
+.topnav {
+    padding: 12px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 5px; 
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.sectionheading {
+    color: lightslategray;
+    text-align: left; 
+}
+
+#wedding {
+    width: 100%;
+    
+}
+
+.flexbox {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+#basketball {
+    width: 100%; 
+}
+.homepage {
+    flex-basis: 50%; 
+}
+
+.font {
+    font-family: 'Squada One', cursive;
+    text-decoration: underline;
+}
+
+.font2 {
+    font-family: 'Roboto Mono', monospace;
+}
