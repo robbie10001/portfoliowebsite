@@ -11,5 +11,31 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-.photos {
+.image {
+    position: relative;
+    width: 96%; 
+    margin-top: 38px;
+    height: 75vh;
+    border: 10px solid #000000;
+   
+
 }
+
+body {
+    background-color: rgb(208, 208, 219);
+    text-align: center
+}
+.topnav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2; 
+}
+.topnav :visited{
+    color: blue;
+} 
