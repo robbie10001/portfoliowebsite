@@ -53,9 +53,6 @@ body {
 }
 
 @media only screen and (min-width: 675px) {
-    body {
-      background-color: lightblue;}
-
     #blog {
         font-size: 35px;
         margin: 4% 37% 0%;
@@ -97,8 +94,6 @@ body {
 }
 
 @media only screen and (min-width: 900px) {
-    body {
-      background-color: green;}
     .font {
         font-size: 23px;
         margin-top: 20px;

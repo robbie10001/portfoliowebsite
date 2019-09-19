@@ -38,7 +38,7 @@ selector:pseudo-class {
 }
 
 #basketball {
-    width: 96%; 
+    width: 86%; 
     border: 10px solid #000000;
 
 }
@@ -94,12 +94,16 @@ selector:pseudo-class {
     display: initial; 
 }
 
+.hidden {
+    display: initial;
+}
+.hidden1 {
+    display: none;
+}
 /* For Larger Screens   */
 
 @media only screen and (min-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+
     .font {
       font-size: 16px; 
     }
@@ -127,22 +131,38 @@ selector:pseudo-class {
 }
 
 @media only screen and (min-width: 900px) {
-    body {
-      background-color: green;
-    }
-
     .font {
         font-size: 20px;
-        padding-top: 12px; 
+        padding-top: 65px; 
+        margin-right: 5px;
     }
 
     .font2 {
         font-size: 18px; 
-        padding-top: 12px; 
+        padding-top: 25px; 
+        margin-right: 5px
     }
 
     #wedding {
         width: 94.5%; 
     }
+
+    .bigflex {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #codephoto {
+        width: 50%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .hidden1 {
+        display: initial;
+    }
+
+
 
 }

@@ -79,10 +79,7 @@ body {
 
 /* For Bigger Screens  */
 
-@media only screen and (min-width: 675px) {
-    body {
-      background-color: lightblue;}
-    
+@media only screen and (min-width: 725px) {
     .flexchange {
         width: 60%
     }
@@ -112,20 +109,20 @@ body {
 }   
 
 @media only screen and (min-width: 1000px) {
-        body {
-          background-color: green;}
     .font {
         font-size: 22px;
         margin-top: 25px;}
     #top {
         width: 75%;
         margin-left: 140px;
-    }
-    }
-    
+         }
     .font2 {
         font-size: 20px; 
     }
 }
-    
+
+
+
+
+        
     
