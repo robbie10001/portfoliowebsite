@@ -22,10 +22,23 @@ body {
     border: 7px solid #000000;
     border-radius: 32px 32px 32px 32px;
     position: relative;
-    width: 78%;
+    width: 85%;
 }
 
 #rob {
     text-align: center;
 }
 
+.footer {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#getintouch {
+    font-size: 20px; 
+    font-family: 'Squada One', cursive;
+    border: 10px solid #000000;
+    border-radius: 35px 35px 35px 35px;
+    margin: 8% 35% 2%;
+    text-align: center;
+}

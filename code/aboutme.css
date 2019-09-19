@@ -20,15 +20,57 @@ body {
     font-family: 'Squada One', cursive;
     text-decoration: underline;
     margin-top: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 17px;
+
  
 }
 
 .font2 {
     font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 13px;
 }
 
 .image {
     position: relative; 
     text-align: center;
+    border: 10px solid #000000;
+}
+
+#resize {
+   width: 100%;
+}
+
+#aboutme {
+    font-size: 20px; 
+    font-family: 'Squada One', cursive;
+    border: 8px solid #000000;
+    border-radius: 35px 35px 35px 35px;
+    margin: 8% 30% -3%;
+    text-align: center;
+    position: relative;
+}
+
+.footer {
+    text-align: center;
+}
+
+#rob {
+    margin-top: 8%;
+}
+
+#edueducation {
+    width: 100%; 
+
+}
+
+#topimage {
+    margin-top: 30px;
+    width: 96%;
     border: 10px solid #000000;
 }

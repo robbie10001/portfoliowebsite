@@ -5,20 +5,22 @@
 .font {
     font-family: 'Squada One', cursive;
     text-decoration: underline;
+    font-size: 17px; 
 }
 
-.font2 {
+.font1 {
     font-family: 'Roboto Mono', monospace;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 13px;
 }
 
 .image {
-    position: relative;
-    width: 96%; 
-    margin-top: 38px;
-    height: 75vh;
+    position: relative; 
+    margin-top: 8px;
     border: 10px solid #000000;
-   
-
+    text-align: center;
+    width: 90%
 }
 
 body {
@@ -35,7 +37,18 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 2; 
+
 }
 .topnav :visited{
     color: blue;
 } 
+
+#blog {
+    font-size: 20px; 
+    font-family: 'Squada One', cursive;
+    border: 8px solid #000000;
+    border-radius: 35px 35px 35px 35px;
+    margin: 8% 34% 0%;
+    position: relative;
+}
+

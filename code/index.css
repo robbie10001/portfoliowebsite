@@ -15,21 +15,21 @@ selector:pseudo-class {
     background-color: black;
     color: white;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
 }
 .topnav :visited{
     color: blue;
 } 
 
 .sectionheading {
- 
-    text-align: left; 
+   margin-top: 5px;
 }
 
 #wedding {
-    width: 100%;
-    border: 10px solid #000000;
-    
+    width: 93.3%;
+    border: 10px solid #000000;  
+    margin-top: -10px; 
 }
 
 .flexbox {
@@ -38,8 +38,9 @@ selector:pseudo-class {
 }
 
 #basketball {
-    width: 100%; 
+    width: 96%; 
     border: 10px solid #000000;
+
 }
 .homepage {
     flex-basis: 50%; 
@@ -48,9 +49,39 @@ selector:pseudo-class {
 .font {
     font-family: 'Squada One', cursive;
     text-decoration: underline;
+    font-size: 17px; 
+    margin-top: -2px;
+    text-align: center; 
 }
 
 .font2 {
     font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    margin-top: -5px; 
 }
 
+.footer {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+#welcomeheading {
+    font-size: 20px; 
+    font-family: 'Squada One', cursive;
+    border: 8px solid #000000;
+    border-radius: 15px 15px 15px 15px;   
+    margin: 8% 34% 3%;
+    text-align: center;
+    position: relative;
+}
+
+#codephoto {
+    text-align: center;
+}
+
+.sectionheadinglastp {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+}
