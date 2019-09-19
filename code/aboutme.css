@@ -100,11 +100,32 @@ body {
     }
 
     .font2 {
-        font-size: 17px; 
+        font-size: 20px; 
         margin-left: 2px;
         margin-right: 12px;
     }
-     
+
+    #topimage  {
+        width: 90%;
+        margin-left: 20px;
+    }
+}   
+
+@media only screen and (min-width: 1000px) {
+        body {
+          background-color: green;}
+    .font {
+        font-size: 22px;
+        margin-top: 25px;}
+    #top {
+        width: 75%;
+        margin-left: 140px;
+    }
+    }
+    
+    .font2 {
+        font-size: 20px; 
+    }
 }
     
     

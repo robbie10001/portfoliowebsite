@@ -101,11 +101,11 @@ selector:pseudo-class {
       background-color: lightblue;
     }
     .font {
-      font-size: 20px; 
+      font-size: 16px; 
     }
 
     .font2 {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     #welcomeheading {
@@ -126,3 +126,23 @@ selector:pseudo-class {
     }
 }
 
+@media only screen and (min-width: 900px) {
+    body {
+      background-color: green;
+    }
+
+    .font {
+        font-size: 20px;
+        padding-top: 12px; 
+    }
+
+    .font2 {
+        font-size: 18px; 
+        padding-top: 12px; 
+    }
+
+    #wedding {
+        width: 94.5%; 
+    }
+
+}
