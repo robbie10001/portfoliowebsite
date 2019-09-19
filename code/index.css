@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Squada+One&display=swap');
 
-
+/* For Mobile  */
 body {
     background-color: rgb(208, 208, 219);
 }
@@ -85,3 +85,44 @@ selector:pseudo-class {
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
 }
+
+.hide-small {
+    display: none; 
+}
+
+.hide-large {
+    display: initial; 
+}
+
+/* For Larger Screens   */
+
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .font {
+      font-size: 20px; 
+    }
+
+    .font2 {
+        font-size: 17px;
+    }
+
+    #welcomeheading {
+        font-size: 35px;
+        margin: 4% 34% 2%;
+    }
+
+    .hide-small {
+        display: initial;
+    }
+
+    .hide-large {
+        display: none;
+    }
+
+    .wedding {
+        width: 94.3%;
+    }
+}
+

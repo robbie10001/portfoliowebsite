@@ -1,3 +1,5 @@
+/* Mobile Design  */
+
 body {
     background-color: rgb(208, 208, 219);
 }
@@ -74,3 +76,24 @@ body {
     width: 96%;
     border: 10px solid #000000;
 }
+
+/* For Bigger Screens  */
+
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;}
+    
+    .flexchange {
+        width: 50%
+    }
+    .flextime {
+        display: flex; 
+    }
+
+    #aboutme {
+        font-size: 30px;
+        margin: 4% 30% -1% 
+    }
+}
+    
+    
