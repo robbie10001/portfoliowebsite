@@ -52,3 +52,61 @@ body {
     position: relative;
 }
 
+@media only screen and (min-width: 675px) {
+    body {
+      background-color: lightblue;}
+
+    #blog {
+        font-size: 35px;
+        margin: 4% 37% 0%;
+    }
+    .flexdiv1 {
+        display: flex;
+        justify-content: center;
+        flex-flow: row-reverse;
+    }
+
+    .flexdiv2 {
+        display: flex;
+        flex-basis: 499px;
+    }
+    .flexdiv3 {
+        display: flex;
+        justify-content: center;
+    }
+
+   .step1 {
+       width: 50%;
+   }
+   .font {
+       font-size: 17px;
+       margin-top: 15px;
+   }
+   .font1 {
+       margin-left: 5px;
+       margin-right: 5px; 
+       font-size: 15px; 
+   }
+   body {
+       text-align: left; 
+   }
+
+   #blog {
+       text-align: center;
+   }
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+      background-color: green;}
+    .font {
+        font-size: 23px;
+        margin-top: 20px;
+    }
+    .font1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    }
+}
+    

@@ -79,12 +79,12 @@ body {
 
 /* For Bigger Screens  */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 675px) {
     body {
       background-color: lightblue;}
     
     .flexchange {
-        width: 50%
+        width: 60%
     }
     .flextime {
         display: flex; 
@@ -94,6 +94,17 @@ body {
         font-size: 30px;
         margin: 4% 30% -1% 
     }
+
+    .font {
+        font-size: 20px;
+    }
+
+    .font2 {
+        font-size: 17px; 
+        margin-left: 2px;
+        margin-right: 12px;
+    }
+     
 }
     
     
