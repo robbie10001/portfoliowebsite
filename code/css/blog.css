@@ -102,6 +102,13 @@ body {
         font-size: 20px;
         margin-top: 20px;
     }
+
+    .break {
+        display: flex;
+        justify-content: center;
+    }
+    #footer {
+        text-align: center;
     }
 }
     
