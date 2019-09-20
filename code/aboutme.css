@@ -79,7 +79,7 @@ body {
 
 /* For Bigger Screens  */
 
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 850px) {
     .flexchange {
         width: 60%
     }
@@ -111,13 +111,17 @@ body {
 @media only screen and (min-width: 1000px) {
     .font {
         font-size: 22px;
-        margin-top: 25px;}
+        margin-top: 8px;}
     #top {
         width: 75%;
         margin-left: 140px;
          }
     .font2 {
         font-size: 20px; 
+    }
+
+    #edueducation {
+        text-align: center; 
     }
 }
 

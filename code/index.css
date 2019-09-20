@@ -128,6 +128,10 @@ selector:pseudo-class {
     .wedding {
         width: 94.3%;
     }
+    .bigflex {
+        text-align: center;
+    }
+
 }
 
 @media only screen and (min-width: 900px) {
@@ -140,7 +144,9 @@ selector:pseudo-class {
     .font2 {
         font-size: 18px; 
         padding-top: 25px; 
-        margin-right: 5px
+        margin-right: 5px;
+        text-align: left;
+        padding-left: 10px;
     }
 
     #wedding {
