@@ -76,7 +76,7 @@ body {
     filter: blur(40px);
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     .flexbox1 {
         display: block; 
         display: flex;

@@ -1,0 +1,91 @@
+#topmargin {
+    margin-top: 60px;
+}
+
+.topnav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2; 
+    margin-bottom: 5%;
+
+}
+.topnav :visited{
+    color: blue;
+} 
+.left {
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Squada One', cursive;
+    font-size: 20px;
+    padding-left: 3%;
+}
+.center {
+    text-align: center;
+    font-family: 'Squada One', cursive;
+    font-size: 20px;
+
+}
+.right {
+    text-align: right;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Squada One', cursive;
+    font-size: 20px;
+    padding-right: 3%;
+}
+.heading {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(208, 208, 219);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.border {
+    border: 10px black solid;
+    
+}
+
+.unique {
+    font-family: 'Squada One', cursive;
+    font-size: 20px;
+    border-bottom: 3;
+   
+}
+.github {
+
+}
+
+.section {
+    text-align: center;
+}
+
+
+.toptext {
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border: black 10px solid; 
+    background: blue; 
+}
