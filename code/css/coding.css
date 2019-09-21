@@ -24,7 +24,7 @@
     padding-bottom: 5%;
     font-family: 'Squada One', cursive;
     font-size: 20px;
-    padding-left: 3%;
+    padding-left: 5%;
 }
 .center {
     text-align: center;
@@ -70,9 +70,6 @@ body {
     font-size: 20px;
     border-bottom: 3;
    
-}
-.github {
-
 }
 
 .section {
