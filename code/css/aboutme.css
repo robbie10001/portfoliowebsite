@@ -15,7 +15,7 @@ body {
     z-index: 2; 
 }
 .topnav :visited{
-    color: blue;
+    color:burlywood; 
 } 
 
 .font {

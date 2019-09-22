@@ -4,9 +4,6 @@
 body {
     background-color: rgb(208, 208, 219);
 }
-selector:pseudo-class {
-    property: value;
-  }
 .topnav {
     text-align: center;
     position: fixed;
@@ -19,7 +16,7 @@ selector:pseudo-class {
     z-index: 2;
 }
 .topnav :visited{
-    color: blue;
+    color:burlywood; 
 } 
 
 .sectionheading {
