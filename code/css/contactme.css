@@ -1,4 +1,7 @@
 
+/* Overall my css could be maintained better by using classes within classes and so on
+If i have time this is something i will need to change */
+
 body {
     background-color: rgb(208, 208, 219);
 }
@@ -56,6 +59,8 @@ body {
 .border {
     border: black 10px solid;
 }
+
+/* mediabreakpoints are used extensively throughout my code to promote usability on various devices */
 
 @media only screen and (min-width: 1000px) {
 

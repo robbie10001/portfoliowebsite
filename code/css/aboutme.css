@@ -61,6 +61,8 @@ body {
 .footer {
     text-align: center;
 }
+/* In future web builts i would benefit from using percentages over px
+This will promote easy of use and scalability for my website */
 
 #rob {
     margin-top: 8%;
