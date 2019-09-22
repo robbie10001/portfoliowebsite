@@ -1,0 +1,114 @@
+#topmargin {
+    margin-top: 60px;
+}
+
+.font {
+    font-family: 'Squada One', cursive;
+    text-decoration: underline;
+    font-size: 17px; 
+}
+
+.font1 {
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.image {
+    position: relative; 
+    margin-top: 8px;
+    border: 10px solid #000000;
+    text-align: center;
+    width: 90%
+}
+
+body {
+    background-color: rgb(208, 208, 219);
+    text-align: center
+}
+.topnav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2; 
+
+}
+.topnav :visited{
+    color:burlywood; 
+} 
+
+#blog {
+    font-size: 20px; 
+    font-family: 'Squada One', cursive;
+    border: 8px solid #000000;
+    border-radius: 35px 35px 35px 35px;
+    margin: 8% 34% 0%;
+    position: relative;
+}
+
+@media only screen and (min-width: 675px) {
+    #blog {
+        font-size: 35px;
+        margin: 4% 37% 0%;
+    }
+    .flexdiv1 {
+        display: flex;
+        justify-content: center;
+        flex-flow: row-reverse;
+    }
+
+    .flexdiv2 {
+        display: flex;
+        flex-basis: 499px;
+    }
+    .flexdiv3 {
+        display: flex;
+        justify-content: center;
+    }
+
+   .step1 {
+       width: 50%;
+   }
+   .font {
+       font-size: 17px;
+       margin-top: 15px;
+   }
+   .font1 {
+       margin-left: 5px;
+       margin-right: 5px; 
+       font-size: 15px; 
+   }
+   body {
+       text-align: left; 
+   }
+
+   #blog {
+       text-align: center;
+   }
+}
+
+@media only screen and (min-width: 900px) {
+    .font {
+        font-size: 23px;
+        margin-top: 20px;
+    }
+    .font1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .break {
+        display: flex;
+        justify-content: center;
+    }
+    #footer {
+        text-align: center;
+    }
+}
+    

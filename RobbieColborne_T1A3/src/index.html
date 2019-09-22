@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <!-- Head Section- link to CSS, add title, styles all data besides what renders on page -->
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Description" content="Title Page with links to other pages on website">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Robbie Colborne</title>
+        <a name="top"></a>
+        <style> 
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Squada+One&display=swap');
+        </style>
+      </head>
+      <body>
+        <!-- All elements that render to page
+        I have made use of many divisions and sections throughout my code
+        I feel like this has given me a great deal of freedom in regards to implementing my css
+        it has also helped me structure my pages  -->
+        <div>
+          <div>
+        <!-- This span links to one of my features which is an animation on the letter o of my name
+        this aims to make my name stick out and become memorable to a prospective employer -->
+              <section class="robbiecolborne">
+                  <h1>R<span class="animation1">O</span>BBIE</h1>
+              </section>
+          </div>
+          <!-- This flexbox allows for minimum changes to the code when i reach my media-break point -->
+          <!-- Within this parent division is all the different links to my webpages
+          this renders with a clickable image -->
+          <div class="flexbox1">
+              <div>
+                <section>
+                    <p class="texting"> HOME </p>
+                    <a href="robbiecolborne.html" target="robbiecolborne.html">
+                    <img alt= "picutre of a house" src="images/4home.jpg"/>
+                    </a>
+              </div>
+              <div>
+                  <section>
+                      <p class="texting"> CODING</p>
+                      <a href="coding.html" target="coding.html">
+                      <img alt= "a close up of a computer with code" src="images/codingaway.jpg"/>
+                      </a>
+                </div>
+              <div>
+                <section>
+                    <p class="texting">ABOUT ME</p>
+                    <a href="aboutme.html" target="aboutme.html">
+                    <img alt= "a person standing on a mountain" src="images/1aboutme.jpg"/>
+                    </a>
+                </section>
+              </div>
+              <div class="textfix">
+                  <section>
+                      <p class="texting">BLOG</p>
+                      <a href="blog.html" target="blog.html">
+                      <img alt= "a person typing at a computer" src="images/2blog.jpg"/>
+                      </a>
+                  </section> 
+              </div>
+              <div>
+                <section>
+                    <p class="texting">CONTACT ME</p>
+                    <a href="contactme.html" target="contactme.html">
+                        <img alt= "a hand holding out a blank business card" src="images/3contact.jpg"/>
+                        </a>
+                </section>
+              </div> 
+          </div>
+          <div>
+            <!-- This is another feature. It is the same animation as earlier. 
+            It once again aims to make my name stick out -->
+                <section class="robbiecolborne1" >
+                    <h1>C<span class="animation1">O</span>LB<span class="animation1">O</span>RNE</h1>
+                </section>
+          </div>
+          <div>
+                <section class= "middle">
+                        <h1>DEVELOPER</h1>
+                    </section>
+          </div>
+        </div>
+      </body>
+  </html>

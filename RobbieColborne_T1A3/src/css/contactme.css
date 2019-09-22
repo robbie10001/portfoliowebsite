@@ -1,0 +1,91 @@
+
+/* Overall my css could be maintained better by using classes within classes and so on
+If i have time this is something i will need to change */
+
+body {
+    background-color: rgb(208, 208, 219);
+}
+
+.break {
+    text-align: center;
+}
+
+.topnav {
+    
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2; 
+}
+.topnav :visited{
+   color:burlywood; 
+} 
+
+.images {
+    border: 7px solid #000000;
+    border-radius: 32px 32px 32px 32px;
+    position: relative;
+    width: 85%;
+}
+
+#rob {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#getintouch {
+    font-size: 20px; 
+    font-family: 'Squada One', cursive;
+    border: 10px solid #000000;
+    border-radius: 35px 35px 35px 35px;
+    margin: 8% 35% 2%;
+    text-align: center;
+}
+
+.texter {
+    font-family: 'Squada One', cursive;
+    font-size: 23px;
+}
+
+.border {
+    border: black 10px solid;
+}
+
+/* mediabreakpoints are used extensively throughout my code to promote usability on various devices */
+
+@media only screen and (min-width: 1000px) {
+
+.break {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.footer {
+    margin-top: 125px;
+}
+.phone {
+    display: none; 
+    position: absolute;
+    top: 58%; 
+    left: 34%; 
+    transform: rotate(90deg);
+}
+.border:hover ~ .phone {
+    display: block; 
+}
+.relative {
+    position: relative; 
+}
+
+}
